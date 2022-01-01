@@ -1,6 +1,6 @@
 ## Moorhuhn GAME
 ## Final exam project for CS 201: Object-Oriented Programming with JAVA 
-## This is a game made by solo  usint JAVAFX.
+## This is a game made by solo  using JAVAFX.
 
 ## Requirements 
 - Code(valid,clean,without comments)
