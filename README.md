@@ -9,6 +9,6 @@
 - Presentation video in Youtube [Link to video in YouTube]https://youtu.be/1Xkc4BhS7p0
 - Presentation [Link to slideshow in Canva]https://www.canva.com/design/DAEz6bcMBDs/tyrR6Kfp_y3j6HwqyXP8EA/view?utm_content=DAEz6bcMBDs&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent
 - Screenshots:
-<img align="center"  width="550px" src="https://github.com/mataraimov/Universe/blob/main/photo1640429714.jpeg" />
+<img align="center"  width="550px" src="https://github.com/mataraimov/Finalgame/blob/main/Screenshots/photo1641052386.jpeg" />
 <img align="center"  width="550px" src="https://github.com/mataraimov/Universe/blob/main/photo1640535645.jpeg" />
 <img align="center"  width="550px" src="https://github.com/mataraimov/Universe/blob/main/photo1640535711.jpeg" />
