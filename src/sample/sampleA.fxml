@@ -17,13 +17,13 @@
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff8a03" height="600.0" stroke="BLACK" strokeType="INSIDE" width="800.0" />
       <Rectangle fx:id="rect" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="459.0" layoutY="141.0" stroke="BLACK" strokeType="INSIDE" width="800.0" />
-      <Button fx:id="startButton" layoutX="368.0" layoutY="97.0" mnemonicParsing="false" onAction="#start" prefHeight="30.0" prefWidth="65.0" text="Start" textFill="RED">
+      <Button fx:id="startButton" layoutX="364.0" layoutY="95.0" mnemonicParsing="false" onAction="#start" prefHeight="33.0" prefWidth="74.0" style="-fx-background-color: #4C8077;" text="Start" textFill="#fcfcfc">
          <font>
-            <Font name="Comic Sans MS" size="12.0" />
+            <Font name="Arial" size="18.0" />
          </font></Button>
-      <Label fx:id="score" alignment="CENTER" layoutY="38.0" prefHeight="30.0" prefWidth="800.0" text="Moorhuhn GAME" textFill="WHITE">
+      <Label fx:id="score" alignment="CENTER" layoutX="295.0" layoutY="53.0" prefHeight="30.0" prefWidth="211.0" style="-fx-background-color: #4C8077;" text="Moorhuhn GAME" textFill="WHITE">
          <font>
-            <Font name="Arial Bold" size="20.0" />
+            <Font name="Arial Bold" size="24.0" />
          </font>
       </Label>
       <Label fx:id="timeLabel" alignment="CENTER" layoutY="165.0" opacity="0.0" prefWidth="800.0" text="TIME:">
@@ -80,7 +80,12 @@
       </MenuBar>
       <Pane layoutY="150.0" onMouseClicked="#click" prefHeight="450.0" prefWidth="800.0">
          <children>
-            <Button fx:id="aim" disable="true" layoutX="380.0" layoutY="79.0" mnemonicParsing="false" onAction="#got" opacity="0.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: red; -fx-background-radius: 100; -fx-border-radius: 100;" />
+            <ImageView fx:id="cel" fitHeight="56.0" fitWidth="50.0" layoutX="380.0" layoutY="76.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@aimt.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="aim" disable="true" layoutX="380.0" layoutY="76.0" mnemonicParsing="false" onAction="#got" opacity="0.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: red; -fx-background-radius: 100; -fx-border-radius: 100;" />
          </children>
       </Pane>
       <ImageView fitHeight="90.0" fitWidth="275.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">

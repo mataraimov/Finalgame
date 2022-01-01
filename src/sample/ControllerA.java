@@ -6,6 +6,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.MenuBar;
+import javafx.scene.image.ImageView;
 
 import java.util.Random;
 
@@ -58,14 +59,18 @@ public class ControllerA {
     int total = 0;
     boolean on = false;
 
-
+    @FXML
+    private ImageView cel;
     @FXML
     void got() {
         if (buttons != 1) {
+            aim.setOpacity(0);
+            cel.setOpacity(1);
 
             total++;
             shots += 1;
             change();
+
             buttons--;
             score.setText(String.format("LEFT: %d", butt - total));
         } else {
@@ -73,6 +78,7 @@ public class ControllerA {
             shots += 1;
             score.setText(String.format("LEFT: %d", butt - total));
             double acc = (double) total / (double) shots * 100.0;
+            cel.setOpacity(0);
 
             startButton.setDisable(false);
 
@@ -124,6 +130,8 @@ public class ControllerA {
         double[] arr = randomC();
         aim.setLayoutX(arr[0]);
         aim.setLayoutY(arr[1]);
+        cel.setLayoutX(aim.getLayoutX());
+        cel.setLayoutY(aim.getLayoutY());
     }
 
     String razn() {
