@@ -11,4 +11,4 @@
 - Screenshots:
 <img align="center"  width="550px" src="https://github.com/mataraimov/Finalgame/blob/main/Screenshots/photo1641052386.jpeg" />
 <img align="center"  width="550px" src="https://github.com/mataraimov/Finalgame/blob/main/Screenshots/photo1641052432.jpeg" />
-<img align="center"  width="550px" src="https://github.com/mataraimov/Universe/blob/main/photo1640535711.jpeg" />
+<img align="center"  width="550px" src="https://github.com/mataraimov/Finalgame/blob/main/Screenshots/photo1641052465.jpeg" />
