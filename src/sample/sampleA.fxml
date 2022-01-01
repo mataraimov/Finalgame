@@ -6,18 +6,24 @@
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerA">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bdf2f0" height="600.0" stroke="BLACK" strokeType="INSIDE" width="800.0" />
-      <Rectangle fx:id="rect" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="450.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" width="800.0" />
-      <Button fx:id="startButton" layoutX="380.0" layoutY="98.0" mnemonicParsing="false" onAction="#start" prefHeight="30.0" prefWidth="41.0" text="Start" />
-      <Label fx:id="score" alignment="CENTER" layoutY="38.0" prefHeight="30.0" prefWidth="800.0" text="Aim Trainer">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff8a03" height="600.0" stroke="BLACK" strokeType="INSIDE" width="800.0" />
+      <Rectangle fx:id="rect" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="459.0" layoutY="141.0" stroke="BLACK" strokeType="INSIDE" width="800.0" />
+      <Button fx:id="startButton" layoutX="368.0" layoutY="97.0" mnemonicParsing="false" onAction="#start" prefHeight="30.0" prefWidth="65.0" text="Start" textFill="RED">
          <font>
-            <Font size="20.0" />
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></Button>
+      <Label fx:id="score" alignment="CENTER" layoutY="38.0" prefHeight="30.0" prefWidth="800.0" text="Moorhuhn GAME" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
          </font>
       </Label>
       <Label fx:id="timeLabel" alignment="CENTER" layoutY="165.0" opacity="0.0" prefWidth="800.0" text="TIME:">
@@ -32,7 +38,7 @@
       </Label>
       <MenuBar fx:id="menuBar" prefHeight="25.0" prefWidth="800.0">
         <menus>
-          <Menu mnemonicParsing="false" text="Number of targets">
+          <Menu mnemonicParsing="false" text="Number of chickens">
                <items>
                   <MenuItem mnemonicParsing="false">
                      <graphic>
@@ -51,7 +57,7 @@
                   </MenuItem>
                </items>
           </Menu>
-          <Menu mnemonicParsing="false" text="Target size">
+          <Menu mnemonicParsing="false" text="Chicken size">
                <items>
                   <MenuItem mnemonicParsing="false">
                      <graphic>
@@ -77,5 +83,18 @@
             <Button fx:id="aim" disable="true" layoutX="380.0" layoutY="79.0" mnemonicParsing="false" onAction="#got" opacity="0.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: red; -fx-background-radius: 100; -fx-border-radius: 100;" />
          </children>
       </Pane>
+      <ImageView fitHeight="90.0" fitWidth="275.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@alatoo.png" />
+         </image>
+         <effect>
+            <Glow level="0.0" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="275.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@moorhuhn.png" />
+         </image>
+      </ImageView>
    </children>
 </Pane>
