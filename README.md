@@ -1,9 +1,8 @@
-# AIM Trainer
+##Moorhuhn GAME
 ## Final exam project for CS 201: Object-Oriented Programming with JAVA 
 ## This is a game made by solo  usint JAVAFX.
 
 ## Requirements 
-- Github [Link to the site]https://mataraimov.github.io/Universe/
 - Code(valid,clean,without comments)
 - Feedback's [Link to video in Google Drive]https://drive.google.com/file/d/1aJ59ZVknqJiCbXykLLXUL6cLrR_KDgVk/view?usp=sharing
 - Tutorial [Link to File in Google Drive]https://docs.google.com/document/d/1hlr0Z5fZc-iIwO_gTD_D875re-w1ilE2/edit?usp=sharing&ouid=107799677416587667383&rtpof=true&sd=true
