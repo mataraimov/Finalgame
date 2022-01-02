@@ -9,7 +9,7 @@
 
 - Tutorial [Link to File in Google Drive]https://docs.google.com/document/d/1hlr0Z5fZc-iIwO_gTD_D875re-w1ilE2/edit?usp=sharing&ouid=107799677416587667383&rtpof=true&sd=true
 
-- Presentation video in Youtube [Link to video in YouTube]https://youtu.be/1Xkc4BhS7p0
+- Presentation video in Youtube [Link to video in YouTube]https://youtu.be/KoT6pCsY2go
 
 - Presentation [Link to slideshow in Canva]https://www.canva.com/design/DAEz6bcMBDs/tyrR6Kfp_y3j6HwqyXP8EA/view?utm_content=DAEz6bcMBDs&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent
 
